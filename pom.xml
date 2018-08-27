@@ -9,9 +9,22 @@
         <version>2.0.1.RELEASE</version>
     </parent>
 
+    <modules>
+        <module>eureka-server-singleton</module>
+    </modules>
+
     <groupId>org.oscar.scd</groupId>
     <artifactId>spring-cloud-finchley-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
+    </properties>
+
 
     <dependencyManagement>
         <dependencies>
@@ -24,4 +37,13 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
