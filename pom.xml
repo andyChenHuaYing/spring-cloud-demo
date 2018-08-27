@@ -12,7 +12,8 @@
     <modules>
         <module>eureka-server-singleton</module>
         <module>eureka-service</module>
-        <module>eureka-service-copy</module>
+        <module>eureka-service-feign</module>
+        <module>eureka-service-ribbon</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
