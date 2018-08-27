@@ -12,6 +12,7 @@
     <modules>
         <module>eureka-server-singleton</module>
         <module>eureka-service</module>
+        <module>eureka-service-copy</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
