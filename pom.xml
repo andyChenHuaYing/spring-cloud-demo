@@ -16,6 +16,7 @@
         <module>eureka-service-ribbon</module>
         <module>eureka-service-ribbon-hystrix</module>
         <module>eureka-service-fegin-hystrix</module>
+        <module>eureka-service-zuul</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
@@ -30,6 +31,16 @@
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
