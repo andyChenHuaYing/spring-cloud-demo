@@ -15,6 +15,7 @@
         <module>eureka-service-feign</module>
         <module>eureka-service-ribbon</module>
         <module>eureka-service-ribbon-hystrix</module>
+        <module>eureka-service-fegin-hystrix</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
