@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-another-client
+  cloud:
+    config:
+      label: dev-20180827
+      profile: test
+      uri: http://localhost:8769/
+server:
+  port: 8771
