@@ -26,6 +26,7 @@
         <module>consul-service</module>
         <module>eureka-server-ha</module>
         <module>eureka-service-ha</module>
+        <module>eureka-hystrix-dashboard</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
