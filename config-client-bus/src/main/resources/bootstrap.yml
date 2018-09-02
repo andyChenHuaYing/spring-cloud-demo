@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client-bus
+  cloud:
+    config:
+      label: dev-20180827
+      profile: test
+      discovery:
+        enabled: true
+        serviceId: config-server-ha

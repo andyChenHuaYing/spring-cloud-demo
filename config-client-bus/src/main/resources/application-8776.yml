@@ -1,0 +1,23 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+server:
+  port: 8776
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

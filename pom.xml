@@ -19,6 +19,7 @@
         <module>eureka-service-zuul</module>
         <module>config-server-ha</module>
         <module>config-client-use-ha</module>
+        <module>config-client-bus</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
