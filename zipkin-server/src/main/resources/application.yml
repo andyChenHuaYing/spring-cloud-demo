@@ -1,0 +1,7 @@
+server:
+  port: 8777
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

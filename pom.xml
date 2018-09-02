@@ -20,6 +20,9 @@
         <module>config-server-ha</module>
         <module>config-client-use-ha</module>
         <module>config-client-bus</module>
+        <module>zipkin-server</module>
+        <module>zipkin-service</module>
+        <module>zipkin-another-service</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>

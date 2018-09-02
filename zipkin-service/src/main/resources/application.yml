@@ -1,0 +1,10 @@
+server:
+  port: 8778
+spring:
+  zipkin:
+    base-url: http://localhost:8777
+  application:
+    name: zipkin-service
+  sleuth:
+    sampler:
+      probability: 1
