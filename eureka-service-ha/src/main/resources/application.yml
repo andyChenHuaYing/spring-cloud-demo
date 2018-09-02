@@ -1,0 +1,11 @@
+server:
+  port: 8784
+
+spring:
+  application:
+    name: eureka-service-ha
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer8781:8781/eureka/,http://peer8782:8782/eureka/,http://peer8783:8783/eureka/

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-server-ha
+
+server:
+  port: 8782
+
+eureka:
+  instance:
+    hostname: peer8782
+  client:
+    serviceUrl:
+      defaultZone: http://peer8781:8781/eureka/,http://peer8783:8783/eureka/ #Register self to another two eureka server

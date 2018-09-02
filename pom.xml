@@ -24,6 +24,8 @@
         <module>zipkin-service</module>
         <module>zipkin-another-service</module>
         <module>consul-service</module>
+        <module>eureka-server-ha</module>
+        <module>eureka-service-ha</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
