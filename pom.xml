@@ -17,6 +17,8 @@
         <module>eureka-service-ribbon-hystrix</module>
         <module>eureka-service-fegin-hystrix</module>
         <module>eureka-service-zuul</module>
+        <module>config-server-ha</module>
+        <module>config-client-use-ha</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
