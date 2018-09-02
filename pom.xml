@@ -27,6 +27,8 @@
         <module>eureka-server-ha</module>
         <module>eureka-service-ha</module>
         <module>eureka-hystrix-dashboard</module>
+        <module>eureka-hystrix-dashboard-another</module>
+        <module>eureka-hystrix-dashboard-turbine</module>
     </modules>
 
     <groupId>org.oscar.scd</groupId>
