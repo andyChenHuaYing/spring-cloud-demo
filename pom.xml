@@ -15,9 +15,11 @@
         <module>eureka-service-feign</module>
         <module>eureka-service-ribbon</module>
         <module>eureka-service-ribbon-hystrix</module>
-        <module>eureka-service-fegin-hystrix</module>
+        <module>eureka-service-feign-hystrix</module>
         <module>eureka-service-zuul</module>
         <module>config-server-ha</module>
+        <module>config-server</module>
+        <module>config-client</module>
         <module>config-client-use-ha</module>
         <module>config-client-bus</module>
         <module>zipkin-server</module>
