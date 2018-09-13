@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.oscar.scd</groupId>
         <artifactId>spring-cloud-finchley-demo</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
 
